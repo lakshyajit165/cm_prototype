@@ -24,7 +24,7 @@ app.get('/about', (req,res) =>{
 });
 
 
-const port = 3000 || procecss.env.PORT;
+const port = 3000 || process.env.PORT;
 
 app.listen(port, () => {
 	console.log(`Server start on port ${port}`);
