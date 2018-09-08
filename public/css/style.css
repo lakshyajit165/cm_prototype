@@ -152,22 +152,7 @@ h6.caption {
 	-o-background-size: cover;		
 	-moz-background-size: cover;
 }
-.w3layouts-banner-top3{
-    background: url(../images/5.jpg) no-repeat 0px 0px;
-    background-size: cover;	
-	-webkit-background-size: cover;	
-	-moz-background-size: cover;
-	-o-background-size: cover;		
-	-moz-background-size: cover;
-}
-.w3layouts-banner-top4{
-    background: url(../images/4.jpg) no-repeat 0px 0px;
-    background-size: cover;	
-	-webkit-background-size: cover;	
-	-moz-background-size: cover;
-	-o-background-size: cover;		
-	-moz-background-size: cover;
-}
+
 .bs-slider-overlay {
     position: absolute;
     top: 0;
@@ -208,13 +193,23 @@ h6.caption {
 .w3l-slide-text p.heading_bottom{
 	border: none;
 	color: #eee;
-	font-size: 15px;
+	font-size: 35px;
 	letter-spacing: 1px;
 	font-weight: 100;
-	line-height: 28px;
+	line-height: 40px;
 	width: 70%;
 	margin: 0 auto;
-    text-transform: lowercase;
+    /*text-transform: lowercase;*/
+}
+.w3l-slide-text p.heading_bottom_edit{
+    border: none;
+    color: #eee;
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    line-height: 40px;
+    width: 70%;
+    margin: 0 auto;
 }
  a.button-style {
     color: #d6d6d6;
@@ -239,46 +234,14 @@ h2.heading,h3.heading {
     font-weight: 700;
     color: #232323;
 }
-p.heading-bottom {
-    color: #a6a6a6;
-    letter-spacing: 2px;
-    font-size: 15px;
-}
-.welcome_right p {
-    font-size: 15px;
-    letter-spacing: .5px;
-    line-height: 28px;
-    color: #7b7b7b;
-}
-.icon span.fa,.icon span.fas {
-    font-size: 20px;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
+.about_home{
+    padding: 40px 20px 40px 30px;
     background: #f85a40;
-    color: #fff;
+    color: #eee;
 }
-.grid_info {
-    padding-left: 0;
-}
-.grid_info h3 {
-    font-size: 20px;
-    font-weight: 700;
-    color: #333;
-}
-.welcome_right{
-    z-index: 1;
-}
-.welcome_right:after {
-    border: 5px solid #f85a40;
-    content: "";
-    display: inline-block;
-    left: -45px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
+.about_home a{
+    color:#000;
+    text-decoration: none;
 }
 /*-- //Welcome section --*/
 
