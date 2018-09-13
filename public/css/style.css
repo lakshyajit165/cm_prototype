@@ -670,10 +670,10 @@ p.para-agileits-w3layouts i {
 
 .conta-posi-w3ls {
     background: linear-gradient(to left, #42a5f5, #86c9ff);
-    width: 50%;
-    position: absolute;
-    top: 40%;
-    right: 4%;
+    width: 100%;
+    position: relative;
+    /*top: 40%;
+    right: 4%;*/
 }
 
 .conta-posi-w3ls h5 {
@@ -2139,6 +2139,7 @@ li.subitem1 p {
     .banner-w3ls-5,
     .banner-agile {
         min-height: 600px;
+        width:auto;
     }
     .banner-text-whtree h3 {
         font-size: 52px;
@@ -2275,7 +2276,7 @@ li.subitem1 p {
     }
     .conta-posi-w3ls {
         top: 38%;
-        width: 42%;
+        width: 100%;
     }
     span.simply-amount {
         font-size: 50px;
@@ -2638,7 +2639,7 @@ li.subitem1 p {
     }
     .conta-posi-w3ls {
         top: 36%;
-        width: 54%;
+        width: 100%;
     }
     p {
         font-size: 14px;
@@ -2758,6 +2759,7 @@ li.subitem1 p {
     }
     .conta-posi-w3ls {
         top: 34%;
+        width:100%;
     }
     h4.contact-title,
     h2.contact-title {
@@ -2964,6 +2966,7 @@ li.subitem1 p {
     }
     .conta-posi-w3ls {
         top: 30%;
+        width:100%;
     }
     li.nav-item a {
         font-size: 14px;
@@ -3097,7 +3100,7 @@ li.subitem1 p {
     }
     .conta-posi-w3ls {
         top: 32%;
-        width: 66%;
+        width: 100%;
     }
     p,
     .agile-addresmk p {
