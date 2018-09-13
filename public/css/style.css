@@ -707,12 +707,12 @@ p.copy-right-grids a:hover {
 /* what we do */
 
 .why-choose-agile {
-    background: url(../images/bg4.jpg) no-repeat center;
+   /* background: url(../images/bg4.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    -ms-background-size: cover;
+    -ms-background-size: cover;*/
 }
 
 .why-choose-agile,
@@ -736,7 +736,7 @@ p.copy-right-grids a:hover {
 }
 
 .agile-why-text p {
-    color: #c5c5c5;
+    color: #000;
 }
 
 a.service-button {
