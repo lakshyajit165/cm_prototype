@@ -224,6 +224,33 @@ a:hover {
 
 /* //header top */
 
+/*Custom about page*/
+.quote{
+    margin:10px;
+}
+.banner-founder {
+    background: url(../images/leadership_1.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+    min-height: 360px;
+}
+.founder{
+    border: 10px solid #42a5f5;
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.founder_text{
+    margin:10px;
+}
+
 /* middle header */
 
 a.logo {

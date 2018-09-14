@@ -23,6 +23,10 @@ app.get('/about', (req,res) =>{
 	res.render('about');
 });
 
+//Founder Route
+app.get('/founder', (req,res) =>{
+	res.render('founder');
+});
 
 
 app.listen(process.env.PORT || 3000, () => console.log('Server Started...'));
