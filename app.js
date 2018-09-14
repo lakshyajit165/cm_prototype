@@ -28,5 +28,10 @@ app.get('/founder', (req,res) =>{
 	res.render('founder');
 });
 
+//Partners Route
+app.get('/partners', (req,res) =>{
+	res.render('partners');
+});
+
 
 app.listen(process.env.PORT || 3000, () => console.log('Server Started...'));
