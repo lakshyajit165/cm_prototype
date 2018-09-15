@@ -232,7 +232,7 @@ a:hover {
     margin:10px;
 }
 .banner-founder {
-    background: url(../images/leadership_1.jpg) no-repeat center;
+    background: url(../images/founder_1.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1285,7 +1285,7 @@ h6.small-heading {
 /* course page */
 
 .banner-agile-2 {
-    background: url(../images/banner1.jpg) no-repeat center;
+    background: url(../images/about.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
