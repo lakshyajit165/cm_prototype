@@ -225,6 +225,9 @@ a:hover {
 /* //header top */
 
 /*Custom about page*/
+.text_black{
+    color:#000;
+}
 .quote{
     margin:10px;
 }
