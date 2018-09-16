@@ -284,6 +284,20 @@ a:hover {
     background-attachment: fixed;
     min-height: 360px;
 }
+/*Custom careers fulltime*/
+.banner-fulltime {
+    background: url(../images/career.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+    min-height: 360px;
+}
+.border-right-careers{
+    border-right:2px solid #42a5f5;
+}
 .main-timeline{ position: relative; }
 .main-timeline:before{
     content: "";
@@ -1352,6 +1366,14 @@ li.breadcrumb-item a {
 .buttons-w3ls {
     left: 26%;
 }
+.buttons-w3ls-3 a{
+    position:relative;
+    background: #42a5f5;
+    font-size: 15px;
+    border-radius: 0;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+}
 
 .buttons-w3ls,
 .buttons-w3ls-2 {
@@ -2306,7 +2328,7 @@ span.simply-word {
 /* admission form page */
 
 .form-w3l {
-    background: url(../images/bg9.jpg) no-repeat center;
+    background: url(../images/bg7.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;

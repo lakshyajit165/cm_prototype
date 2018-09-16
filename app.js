@@ -38,5 +38,10 @@ app.get('/faculties', (req,res) => {
 	res.render('faculties');
 });
 
+//Careers_Fulltime
+app.get('/careers_fulltime', (req,res) =>{
+	res.render('careers_fulltime');
+});
+
 
 app.listen(process.env.PORT || 3000, () => console.log('Server Started...'));
