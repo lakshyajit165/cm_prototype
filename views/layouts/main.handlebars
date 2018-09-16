@@ -31,8 +31,6 @@
   <link rel="stylesheet" href="public/css/fontawesome-all.css">
   <!-- //Custom-Files -->
 
-  <!--lightbox2-->
-  <link rel = "stylesheet" href="node_modules/lightbox2/dist/css/lightbox.css">
   <!-- Web-Fonts -->
   <link href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
    rel="stylesheet">
@@ -165,6 +163,25 @@
                 
               </a>
             </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Careers
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="/fulltime">FullTime</a>
+                <a class="dropdown-item dropdown-toggle dropright" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >Internships</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item " href="/fulltime">Technical</a>
+                  <a class="dropdown-item" href="/fulltime">Non-Technical</a>
+                </div>  
+              </div>  
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/faculties">Faculties</a>
+            </li>
+
             <li class="nav-item">
               <a class="nav-link text-white" href="blog.html">Blog</a>
             </li>
@@ -301,9 +318,22 @@
   <!--  necessary snippets for few javascript files -->
   <script src="public/js/edulearn.js"></script>
 
-  <!--lightbox2 -->
-  <script src="node_modules/lightbox2/dist/js/lightbox.js"></script>
-  <!-- //Js files -->
+  <!--modal varying content-->
+  <script>
+
+      $('#exampleModal').on('show.bs.modal', function (event) {
+      var button = $(event.relatedTarget) // Button that triggered the modal
+      var recipient = button.data('whatever') // Extract info from data-* attributes
+      // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+      // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+      var modal = $(this)
+      modal.find('.modal-title').text('New message to ' + recipient)
+      modal.find('.modal-body input').val(recipient)
+    })
+
+  </script>  
+
+ 
 
 </body>
 

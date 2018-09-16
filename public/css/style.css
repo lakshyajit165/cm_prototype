@@ -224,9 +224,18 @@ a:hover {
 
 /* //header top */
 
-/*Custom about page*/
+/*Custom styles*/
 .text_black{
     color:#000;
+}
+.index_quote{
+    line-height: 30px;
+}
+.fb_icon:hover{
+    color: #3619C4;
+}
+.ln_icon:hover{
+    color: #277ED3;
 }
 .quote{
     margin:10px;
@@ -253,7 +262,17 @@ a:hover {
 .founder_text{
     margin:10px;
 }
-
+/*Custom Faculties Page*/
+.banner-faculties {
+    background: url(../images/2.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+    min-height: 360px;
+}
 /*Custom partners page*/
 .banner-partner {
     background: url(../images/partnership.png) no-repeat center;
@@ -806,7 +825,7 @@ h3.title:after {
 }
 
 .about_right p {
-    font-size: 18px;
+    font-size: 16px;
     border-right: 2px solid #42a5f5 !important;
 }
 
@@ -856,6 +875,7 @@ h3.title:after {
     font-size: 40px;
     color: #42a5f5;
 }
+
 
 /*-- //about --*/
 
@@ -1223,7 +1243,7 @@ h6.small-heading {
 /* testimonials */
 
 .testimonials {
-    background: url(../images/bg6.jpg) no-repeat center fixed;
+    background: url(../images/wood.jpg) no-repeat center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1285,7 +1305,7 @@ h6.small-heading {
 /* course page */
 
 .banner-agile-2 {
-    background: url(../images/about.jpg) no-repeat center;
+    background: url(../images/company.jpeg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;

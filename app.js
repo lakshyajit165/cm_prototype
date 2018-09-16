@@ -33,5 +33,10 @@ app.get('/partners', (req,res) =>{
 	res.render('partners');
 });
 
+//Faculties
+app.get('/faculties', (req,res) => {
+	res.render('faculties');
+});
+
 
 app.listen(process.env.PORT || 3000, () => console.log('Server Started...'));
