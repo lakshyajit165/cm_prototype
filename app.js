@@ -43,5 +43,15 @@ app.get('/careers_fulltime', (req,res) =>{
 	res.render('careers_fulltime');
 });
 
+//Internship_technical
+app.get('/technical', (req,res) =>{
+	res.render('technical');
+});
+
+//Internship_non_tech
+app.get('/non_technical', (req,res) =>{
+	res.render('non_technical');
+});
+
 
 app.listen(process.env.PORT || 3000, () => console.log('Server Started...'));

@@ -295,6 +295,28 @@ a:hover {
     background-attachment: fixed;
     min-height: 360px;
 }
+/*Custom Technical Internships Page*/
+.banner-technical{
+     background: url(../images/technical.png) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+    min-height: 360px;
+}
+/*Custom Non-technical Internships page*/
+.banner-non_technical{
+     background: url(../images/non_tech.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+    min-height: 360px;
+}
 .border-right-careers{
     border-right:2px solid #42a5f5;
 }
