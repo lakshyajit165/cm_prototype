@@ -341,6 +341,16 @@ a:hover {
     border-left: 1px solid #000;
     border-top: 1px solid #000;
 }
+/*Navbar Logo*/
+.nav-logo{
+    float:left;
+}
+@media only screen and (max-width: 1080px){
+    .nav-logo{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
 
 .main-timeline{ position: relative; }
 .main-timeline:before{
