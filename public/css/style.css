@@ -320,6 +320,28 @@ a:hover {
 .border-right-careers{
     border-right:2px solid #42a5f5;
 }
+
+/*Custom IRP Page*/
+.banner-irp{
+     background: url(../images/irp.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+    min-height: 360px;
+}
+
+.nav-link.active {
+    font-weight:bold;
+    background-color: transparent;
+    border-bottom:3px solid #dd0000;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+}
+
 .main-timeline{ position: relative; }
 .main-timeline:before{
     content: "";

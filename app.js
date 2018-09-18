@@ -53,5 +53,10 @@ app.get('/non_technical', (req,res) =>{
 	res.render('non_technical');
 });
 
+//Courses -- IRP
+app.get('/industry_ready_programme', (req,res) => {
+	res.render('industry_ready_programme');
+});
+
 
 app.listen(process.env.PORT || 3000, () => console.log('Server Started...'));
