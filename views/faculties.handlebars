@@ -15,120 +15,70 @@
     </nav>
 <!--end of breadcrumb-->  
 <br>  
-<!--modal-->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="recipient-name" class="col-form-label">Recipient:</label>
-            <input type="text" class="form-control" id="recipient-name">
-          </div>
-          <div class="form-group">
-            <label for="message-text" class="col-form-label">Message:</label>
-            <textarea class="form-control" id="message-text"></textarea>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-       
-      </div>
-    </div>
-  </div>
-</div>
-<!-- testimonials -->
-    <div class="testimonials py-5">
-        <div class="container py-xl-5 py-lg-3">
-            <h3 class="title text-capitalize font-weight-light text-white text-center mb-5">Our
-                <span class="font-weight-bold">Faculties</span>
-            </h3>
-            <div class="mis-stage">
-                <!-- The element to select and apply miSlider to - the class is optional -->
-                <ol class="mis-slider">
-                    <!-- The slider element - the class is optional -->
-                    <li class="mis-slide">
-                        <!-- A slide element - the class is optional -->
-                        <a href="#" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" class="mis-container">
-                            <!-- A slide container - this element is optional, if absent the plugin adds it automatically -->
-                            <figure>
-                                <!-- Slide content - whatever you want -->
-                                <img src="public/images/faculty/kruti_final.jpg" alt=" " class="img-fluid" />
-                                <figcaption>Krutibash Panda
-                                    
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li class="mis-slide">
-                        <a href="#" class="mis-container">
-                            <figure>
-                                <img src="public/images/faculty/arpit_final.jpg" alt=" " class="img-fluid" />
-                                <figcaption>Arpit Bhal
-                                    
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li class="mis-slide">
-                        <a href="link" class="mis-container">
-                            <figure>
-                                <img src="public/images/faculty/eka_final.jpg" alt=" " class="img-fluid" />
-                                <figcaption>Ekankita Agrawalla
-                                   
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li class="mis-slide">
-                        <a href="#" class="mis-container">
-                            <figure>
-                                <img src="public/images/faculty/namoona_final.jpg" alt=" " class="img-fluid" />
-                                <figcaption>Namoona Nayak
-                                   
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li class="mis-slide">
-                        <a href="#" class="mis-container">
-                            <figure>
-                                <img src="public/images/faculty/debi_final.jpg" alt=" " class="img-fluid" />
-                                <figcaption>Debi Prasad Rath
-                                    
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li class="mis-slide">
-                        <a href="#" class="mis-container">
-                            <figure>
-                                <img src="public/images/faculty/Prakash_final.jpg" alt=" " class="img-fluid" />
-                                <figcaption>Prakash Chandra Panda
-                                    
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li class="mis-slide">
-                        <a href="#" class="mis-container">
-                            <figure>
-                                <img src="public/images/faculty/soumya_final.jpg" alt=" " class="img-fluid" />
-                                <figcaption>Soumyashree Parthasarathi Rout
-                                    
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                </ol>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-10 col-center m-auto">
+            <h1 class="text-center"><b>Our Faculties</b></h1>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Carousel indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                   
+                </ol>   
+                <!-- Wrapper for carousel items -->
+                <div class="carousel-inner">
+                    <div class="item carousel-item active">
+                        <div class="img-box"><img src="public/images/faculty/kruti_final.jpg" alt=""></div>
+                        <p class="testimonial text-justify text_black">An NIT Rourkela and XIMB Alumnus, he worked in the core sector for well over a decade making a name for himself as the most valuable asset in the companies he worked with. Having recruited and trained many engineers and MTs over the years, he understands the gap between a young graduate's knowledge and the industry requirements. He set out to bridge that gap with Career Mantra. </p>
+                        <p class="overview"><b>Krutibash Panda</b>, Founder</p>
+                    </div>
+                    <div class="item carousel-item">
+                        <div class="img-box"><img src="public/images/faculty/prakash_final.jpg" alt=""></div>
+                        <p class="testimonial text-justify text_black">An UCE, Burla Electrical Engineer, he has more than 45 years of experience in the power sector, government and private included. He is a go to person for both education and career related queries. He brings all his experience into play while training and guiding students towards the right career path. </p>
+                        <p class="overview"><b>Prakash Chandra Panda</b></p>
+                    </div>
+                    <div class="item carousel-item">
+                        <div class="img-box"><img src="public/images/faculty/namoona_final.jpg" alt=""></div>
+                        <p class="testimonial text-justify text_black">An IIIT alumnus, IIM-Indoor Admit, Namoona is an all-rounder and excels in what she does. She won the first 'Future is Here' B-Plan competition and will be leading the internationalisation of the same event in 2018. She oversees Career Mantra’s IT program development and trains the students in all the domains of IT. </p>
+                        <p class="overview"><b>Namoona Nayak</b></p>
+                    </div>
+                    <div class="item carousel-item">
+                        <div class="img-box"><img src="public/images/faculty/debi_final.jpg" alt=""></div>
+                        <p class="testimonial text-justify text_black">With more than 25 years of experience in Energy, CEE and HRD industry, he has trained more than a thousand professionals in soft skills, communication and social skills. With a PhD. In Zoology, he understands the value of education and does his best in sharing what he has learnt with his trainees.</p>
+                        <p class="overview"><b>Debi Prasad Rath</b></p>
+                    </div>
+                    <div class="item carousel-item">
+                        <div class="img-box"><img src="public/images/faculty/arpit_final.jpg" alt=""></div>
+                        <p class="testimonial text-justify text_black">Arpit is an engineer by mind and a sportsman by heart. He is great with numbers and aptitude. No wonder he was selected as ISB-Hyderabad's (Global Rank#28) campus ambassador for 2017-18. That he is a finalist for the Young Leaders Program of ISB speaks volumes about his leadership skills; skills that he imparts to students so they succeed in any sphere of life and career.</p>
+                        <p class="overview"><b>Arpit Bhal</b>, Seo Analyst</p>
+                    </div>
+                    <div class="item carousel-item">
+                        <div class="img-box"><img src="public/images/faculty/Eka.jpg" alt=""></div>
+                        <p class="testimonial text-justify text_black">Ekankita is a basket of talents. She was among the State and University toppers during her 10+2 and graduation, is an MBA, and a professional Odissi dancer. This brilliant mix of cognitive and creative abilities makes her a role model and guide for young students looking for career guidance. She trains students in soft skills and personality development too.</p>
+                        <p class="overview"><b>Ekankita Agrawalla</b></p>
+                    </div>
+                    <div class="item carousel-item">
+                        <div class="img-box"><img src="public/images/faculty/soumya_final.jpg" alt=""></div>
+                        <p class="testimonial text-justify text_black">An UCE Burla and XIMB Alumnus, he pursues any work given to him with utmost sincerity. With more than 15 years of industry experience, he understands the Industry well and uses his experience to make Industry professionals aware of certain career pitfalls. A humble and down to earth man, he doesn’t leave the hands of his trainees when it comes to quality education.</p>
+                        <p class="overview"><b>Soumyashree Parthasarathi Rout</b></p>
+                    </div>
+
+                </div>
+                <!-- Carousel controls -->
+                <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                    <i class="fa fa-angle-right"></i>
+                </a>
             </div>
         </div>
     </div>
-    <!-- //testimonials -->
+</div>
+</div>  
