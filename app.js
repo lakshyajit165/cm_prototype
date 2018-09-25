@@ -58,5 +58,10 @@ app.get('/industry_ready_programme', (req,res) => {
 	res.render('industry_ready_programme');
 });
 
+//Courses -- CMPT
+app.get('/cmpt', (req,res) => {
+	res.render('cmpt');
+});
+
 
 app.listen(process.env.PORT || 3000, () => console.log('Server Started...'));

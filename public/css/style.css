@@ -333,6 +333,17 @@ a:hover {
     min-height: 360px;
 }
 
+/*Custom CMPT Page*/
+.banner-cmpt{
+     background: url(../images/cmpt.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+    min-height: 360px;
+}
 .nav-link.active {
     font-weight:bold;
     background-color: transparent;
@@ -629,6 +640,10 @@ a.button-head-mow3 {
 
 .bg-light {
     background: linear-gradient(to bottom, #42a5f5, #86c9ff);
+}
+
+.bg-card-light{
+    background: #F5FBFF;
 }
 
 li.nav-item a {
