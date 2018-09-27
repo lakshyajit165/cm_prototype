@@ -68,4 +68,9 @@ app.get('/gallery', (req,res) => {
 	res.render('gallery');
 });
 
+//Contact
+app.get('/contact', (req,res) => {
+	res.render('contact');
+});
+
 app.listen(process.env.PORT || 3000, () => console.log('Server Started...'));
