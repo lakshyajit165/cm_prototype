@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
   <title>Career Mantra</title>
@@ -29,8 +29,8 @@
   <link rel="stylesheet" href="public/css/style.css" type="text/css" media="all" />
   <!-- Font-Awesome-Icons-Css -->
   <link rel="stylesheet" href="public/css/fontawesome-all.css">
-  <!-- //Custom-Files -->
-
+  <!-- LightBox -->
+  <link rel="stylesheet" href="public/css/simpleLightbox.css">
   <!-- Web-Fonts -->
   <link href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
    rel="stylesheet">
@@ -180,11 +180,9 @@
               <a class="nav-link text-white" href="/faculties">Faculties</a>
             </li>
 
+           
             <li class="nav-item">
-              <a class="nav-link text-white" href="blog.html">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="gallery.html">Gallery</a>
+              <a class="nav-link text-white" href="/gallery">Gallery</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="contact.html">Contact Us</a>
@@ -316,8 +314,11 @@
   <!--  necessary snippets for few javascript files -->
   <script src="public/js/edulearn.js"></script>
 
-
-
+  <!--lightbox-->
+  <script src="public/js/simpleLightbox.js"></script>
+  <script>
+    $('.proj_gallery_grid a').simpleLightbox();
+  </script>  
 </body>
 
 </html>

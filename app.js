@@ -63,5 +63,9 @@ app.get('/cmpt', (req,res) => {
 	res.render('cmpt');
 });
 
+//Gallery
+app.get('/gallery', (req,res) => {
+	res.render('gallery');
+});
 
 app.listen(process.env.PORT || 3000, () => console.log('Server Started...'));
